@@ -121,7 +121,7 @@
  
  
  .wrapper {
-     --padding-inline : 2rem;
+     --padding-inline : min(5% , 2rem);
      --content-max-width : var(--content , 99ch);
      --breakout-max-width : 150ch;
    
@@ -283,11 +283,10 @@
  
  }
  
- .call-to-action-text {
+ .call-to-action-text p {
      padding-inline: 3rem;
  }
  
- /* TODO: Use flow-content instead of margin top */
  
  .action {
      justify-content: center;
