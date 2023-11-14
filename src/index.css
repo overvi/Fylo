@@ -423,10 +423,14 @@
 
     }
      .sukuna {
-         margin-top: 20rem;
+         margin-top: 25rem;
      }
      .card-container , .z-index-handler {
          flex-basis: 100%;
+     }
+
+     .call-to-action-text p {
+        padding-inline: 0;
      }
  
      .action {
